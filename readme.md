@@ -6,11 +6,11 @@ https://www.youtube.com/watch?v=6YZvp2GwT0A
 # Installation
 ## Build the Jenkins BlueOcean Docker Image (or pull and use the one I built)
 ```
-docker build -t myjenkins-blueocean:2.332.3-1 .
+docker build -t myjenkins-blueocean:2.401.3-jdk11 .
 
-#IF you are having problems building the image yourself, you can pull from my registry and rename it to `myjenkins-blueocean:2.332.3-1`
+#IF you are having problems building the image yourself, you can pull from my registry and rename it to `myjenkins-blueocean:2.401.3-jdk11`
 
-docker pull devopsjourney1/jenkins-blueocean:2.332.3-1 && docker tag devopsjourney1/jenkins-blueocean:2.332.3-1 myjenkins-blueocean:2.332.3-1
+docker pull devopsjourney1/jenkins-blueocean:2.332.3-1 && docker tag devopsjourney1/jenkins-blueocean:2.401.3-jdk11 myjenkins-blueocean:2.332.3-1
 ```
 
 ## Create the network 'jenkins'
